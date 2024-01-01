@@ -1,8 +1,6 @@
-module github.com/famarker/loki
+module github.com/grafana/loki
 
 go 1.15
-
-replace github.com/grafana/loki => github.com/famarker/loki v1.6.2
 
 require (
 	cloud.google.com/go/pubsub v1.3.1
